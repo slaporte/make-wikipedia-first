@@ -1,6 +1,6 @@
 {
   "name": "Make Wikipedia #1",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "This extension will move Wikipedia pages to the top of your Google search results",
   "homepage_url": "https://github.com/slaporte/make-wikipedia-first",
