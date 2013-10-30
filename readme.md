@@ -1,4 +1,5 @@
-version 0.0.1
+# Make Wikipedia #1 (in your search results)
+version 0.0.2
 
 A simple extension to move Wikipedia to the top of your Google search results.
 

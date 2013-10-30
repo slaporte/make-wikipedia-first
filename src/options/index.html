@@ -1,0 +1,36 @@
+<html>
+<head><title>Options</title></head>
+<style>
+	body {
+		font-family: Helvetica, sans-serif;
+		margin: 3em;
+	}
+	#status {
+		background-color: #FFFFCC;
+	}
+</style>
+<body>
+
+<h1>Make Wikipedia your first search result<h1>
+<h2>Options</h2>
+<p><label for="domains">Which domains? </label><input type="text" name="domains" id="domains"> (comma separated)</p>
+<label for="number">Move how many results? </label>
+<select id="number" name="number">
+	<option value="all">All</option>
+	<option value="first">Only the first</option>
+</select>
+<p><label for="highlight">Highlight results?</label>
+<input type="checkbox" name="highlight" id="highlight"></p>
+
+<p><button id="save">Save</button></p>
+
+<div id="status"></div>
+
+<h2>About</h2>
+<p>Source code available on <a href="https://github.com/slaporte/make-wikipedia-first">github</a>.</p>
+</body>
+
+<script src="../../js/jquery/jquery.js"></script>
+<script src="options.js"></script>
+
+</html>
