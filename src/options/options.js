@@ -10,8 +10,8 @@ function save_options() {
 }
 
 function restore_options() {
-  $('#number').val(localStorage['number']);
-  $('#domains').val(localStorage['domains']);
+  $('#number').val(localStorage['number'] || 'all');
+  $('#domains').val(localStorage['domains'] || 'wikipedia');
   if (localStorage['highlight'] === 'true') {
     $('#highlight').prop('checked', true);
   }
