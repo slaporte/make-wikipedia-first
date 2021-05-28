@@ -29,16 +29,16 @@ function move_results() {
       var domain = options['domains'][i];
       if (options['number'] === 'first') {
         if (options['highlight'] === 'true') {
-          results.push($('cite:contains("' + domain + '")').parents().eq(4).css('background', HIGHLIGHT_COLOR).remove());
+          results.push($('cite:contains("' + domain + '")').parents().eq(3).css('background', HIGHLIGHT_COLOR).remove());
         } else {
-          results.push($('cite:contains("' + domain + '")').parents().eq(4).remove());
+          results.push($('cite:contains("' + domain + '")').parents().eq(3).remove());
         }
       } else if (options['number'] === 'all') {
         $('cite:contains("' + domain + '")').each(function(i, e) {
           if (options['highlight'] === 'true') {
-            $(e).parents().eq(4).css('background', HIGHLIGHT_COLOR);
+            $(e).parents().eq(3).css('background', HIGHLIGHT_COLOR);
           }
-          results.push($(e).parents().eq(4).remove());
+          results.push($(e).parents().eq(3).remove());
         });
       }
     }
